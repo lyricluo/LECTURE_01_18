@@ -14,4 +14,10 @@ public class Rational {
 	// System.out.println("r = " + r.toString());
     }
 
+    @Override
+    public String toString() {
+	return this.num + "/" + this.denom;
+    }
+    
 }
+
