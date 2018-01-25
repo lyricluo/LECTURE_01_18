@@ -28,7 +28,7 @@
   </target>
 
   <target name="javadoc" depends="compile" description="generate javadoc">
-    <javadoc destdir="javadoc">
+    <javadoc destdir="docs/javadoc">
       <fileset dir="src" >
 	<include name="*.java"/>
       </fileset>
